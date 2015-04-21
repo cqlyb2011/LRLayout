@@ -1,13 +1,13 @@
 //
-//  SlideBaseViewController.h
+//  TestViewController3.h
 //  LRLayoutDemo
 //
-//  Created by LiYeBiao on 15/4/14.
+//  Created by LiYeBiao on 15/4/15.
 //  Copyright (c) 2015年 GaoJing Electric Co., Ltd. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface SlideBaseViewController : UIViewController
+@interface TestViewController3 : UIViewController
 
 @end

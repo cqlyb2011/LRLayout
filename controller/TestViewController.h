@@ -1,5 +1,5 @@
 //
-//  SlideBaseNavigationViewController.h
+//  TestViewController.h
 //  LRLayoutDemo
 //
 //  Created by LiYeBiao on 15/4/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SlideBaseNavigationViewController : UINavigationController
+@interface TestViewController : UIViewController
 
 @end

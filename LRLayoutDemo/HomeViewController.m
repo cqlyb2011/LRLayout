@@ -1,18 +1,18 @@
 //
-//  SlideContentViewController.m
+//  HomeViewController.m
 //  LRLayoutDemo
 //
-//  Created by LiYeBiao on 15/4/14.
+//  Created by LiYeBiao on 15/4/17.
 //  Copyright (c) 2015年 GaoJing Electric Co., Ltd. All rights reserved.
 //
 
-#import "SlideContentViewController.h"
+#import "HomeViewController.h"
 
-@interface SlideContentViewController ()
+@interface HomeViewController ()
 
 @end
 
-@implementation SlideContentViewController
+@implementation HomeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

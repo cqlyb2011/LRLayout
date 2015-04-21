@@ -1,22 +1,28 @@
 //
-//  SlideBaseViewController.m
+//  TestViewController2.m
 //  LRLayoutDemo
 //
-//  Created by LiYeBiao on 15/4/14.
+//  Created by LiYeBiao on 15/4/15.
 //  Copyright (c) 2015年 GaoJing Electric Co., Ltd. All rights reserved.
 //
 
-#import "SlideBaseViewController.h"
+#import "TestViewController2.h"
 
-@interface SlideBaseViewController ()
+@interface TestViewController2 ()
 
 @end
 
-@implementation SlideBaseViewController
+@implementation TestViewController2
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor grayColor];
+    UIButton * button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame = CGRectMake(50, 150, 100, 40);
+    [button setTitle:@"test2" forState:UIControlStateNormal];
+    button.backgroundColor = [UIColor purpleColor];
+    [self.view addSubview:button];
 }
 
 - (void)didReceiveMemoryWarning {
